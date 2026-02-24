@@ -152,9 +152,9 @@ Common flags:
 
 ## Configuration Reference
 DeepRead reads from environment variables and CLI flags:
-- LLM: `OPENAI_API_KEY` / `OPENROUTER_API_KEY`, `OPENAI_BASE_URL` / `OPENROUTER_BASE_URL`, `OPENAI_MODEL`
+- LLM: `OPENROUTER_API_KEY`, `OPENROUTER_BASE_URL`, `OPENROUTER_MODEL`
 - Embedding: `EMBED_API_KEY`, `EMBED_BASE_URL`, `EMBEDDING_MODEL`
-- Rerank (optional): `RERANK_API_KEY` or `SILICONFLOW_API_KEY`, `RERANK_BASE_URL`, `RERANK_MODEL`
+- Rerank (optional): `RERANK_API_KEY`, `RERANK_BASE_URL`, `RERANK_MODEL`
 - Retrieval: `--enable-vector`, `--enable-hybrid`, `--enable-semantic`, `--disable-bm25`, `--disable-regex`, `--disable-read`
 - Neighbor window: `--neighbor-window up,down` (e.g. `1,-1`, `0,0` disables)
 
