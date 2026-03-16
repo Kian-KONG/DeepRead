@@ -13,6 +13,8 @@
 
 DeepRead is a document-structure-aware RAG Agent. This repo already includes the core parsing, indexing, retrieval, and agent runtime used in the demo.
 
+## News
+- **2026.3.16** DeepRead has been featured in [New Intelligence (新智元)](https://mp.weixin.qq.com/s/BhvUQgREp4NOvb6axiWXiQ)!
 ## Repository Layout
 - `Code/DeepRead.py`: agent runtime + retrieval + tool calls.
 - `Code/parser_pdf.py`: PDF -> OCR (PaddleOCRVL) -> merged Markdown/JSON -> corpus; optional embeddings.
