@@ -1,6 +1,6 @@
 [
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 0,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -294,7 +294,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 1,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -611,7 +611,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 2,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -905,7 +905,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 3,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -1222,7 +1222,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 4,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -1447,7 +1447,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 5,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -1787,7 +1787,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 6,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -2265,7 +2265,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 7,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -2559,7 +2559,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 8,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -2807,7 +2807,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 9,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -3216,7 +3216,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 10,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -3441,7 +3441,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 11,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -3666,7 +3666,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 12,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -3914,7 +3914,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 13,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -4265,7 +4265,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 14,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -4478,7 +4478,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 15,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -4829,7 +4829,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 16,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -5203,7 +5203,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 17,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -5324,7 +5324,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 18,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -5870,7 +5870,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 19,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -6255,7 +6255,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 20,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -6411,7 +6411,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 21,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -6658,7 +6658,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 22,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -6745,7 +6745,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 23,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -6832,7 +6832,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 24,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -6919,7 +6919,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 25,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -7052,7 +7052,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 26,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -7139,7 +7139,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 27,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -7272,7 +7272,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 28,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -7359,7 +7359,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_001_00001-00030.pdf",
     "page_index": 29,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -7490,7 +7490,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_002_00031-00038.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_002_00031-00038.pdf",
     "page_index": 0,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -7623,7 +7623,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_002_00031-00038.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_002_00031-00038.pdf",
     "page_index": 1,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -7710,7 +7710,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_002_00031-00038.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_002_00031-00038.pdf",
     "page_index": 2,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -7843,7 +7843,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_002_00031-00038.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_002_00031-00038.pdf",
     "page_index": 3,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -7976,7 +7976,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_002_00031-00038.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_002_00031-00038.pdf",
     "page_index": 4,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -8109,7 +8109,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_002_00031-00038.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_002_00031-00038.pdf",
     "page_index": 5,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -8242,7 +8242,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_002_00031-00038.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_002_00031-00038.pdf",
     "page_index": 6,
     "model_settings": {
       "use_doc_preprocessor": false,
@@ -8375,7 +8375,7 @@
     }
   },
   {
-    "input_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/__tmp_pdf_chunks_30p/TradingAgent__chunk_002_00031-00038.pdf",
+    "input_path": "__tmp_pdf_chunks_30p/TradingAgent__chunk_002_00031-00038.pdf",
     "page_index": 7,
     "model_settings": {
       "use_doc_preprocessor": false,

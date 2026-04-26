@@ -79,7 +79,7 @@
         {
           "type": "image",
           "content": "Image",
-          "image_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/imgs/img_in_image_box_129_714_1097_1009.jpg"
+          "image_path": "imgs/img_in_image_box_129_714_1097_1009.jpg"
         },
         "<div style=\"text-align: center;\">Fig. 1: TradingAgents Overall Framework Organization. I. ANALYSTS TEAM: Four analysts concurrently gather relevant market information. II. RESEARCH TEAM: The team discusses and evaluates the collected data. III. TRADER: Based on the researchers' analysis, the trader makes the trading decision. IV. RISK MANAGEMENT TEAM: Risk guardians assess the decision against current market conditions to mitigate risks. V. FUND MANAGER: The fund manager approves and executes the trade.</div>"
       ],
@@ -159,7 +159,7 @@
         {
           "type": "image",
           "content": "Image",
-          "image_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/imgs/img_in_image_box_175_567_1047_1086.jpg"
+          "image_path": "imgs/img_in_image_box_175_567_1047_1086.jpg"
         },
         "<div style=\"text-align: center;\">Fig. 2: TradingAgents Analyst Team</div>",
         "• Fundamental Analyst Agents: These agents evaluate company fundamentals by analyzing financial statements, earnings reports, insider transactions, and other pertinent data. They assess a company’s intrinsic value to identify undervalued or overvalued stocks, providing insights into long-term investment potential.",
@@ -178,7 +178,7 @@
         {
           "type": "image",
           "content": "Image",
-          "image_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/imgs/img_in_image_box_178_673_1046_933.jpg"
+          "image_path": "imgs/img_in_image_box_178_673_1046_933.jpg"
         },
         "<div style=\"text-align: center;\">Fig. 3: TradingAgents Researcher Team: Bullish Perspectives and Bearish Perspectives</div>",
         "- Bullish Researchers: These agents advocate for investment opportunities by highlighting positive indicators, growth potential, and favorable market conditions. They construct arguments supporting the initiation or continuation of positions in certain assets.",
@@ -196,7 +196,7 @@
         {
           "type": "image",
           "content": "Image",
-          "image_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/imgs/img_in_image_box_177_255_1047_530.jpg"
+          "image_path": "imgs/img_in_image_box_177_255_1047_530.jpg"
         },
         "<div style=\"text-align: center;\">Fig. 4: Trading Agents's Trader Decision-Making Process</div>",
         "The tasks of TradingAgents Trader include:",
@@ -223,7 +223,7 @@
         {
           "type": "image",
           "content": "Image",
-          "image_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/imgs/img_in_image_box_178_177_1047_437.jpg"
+          "image_path": "imgs/img_in_image_box_178_177_1047_437.jpg"
         },
         "<div style=\"text-align: center;\">Fig. 5: TradingAgents Risk Management Team and Fund Manager Approval Workflow</div>"
       ],
@@ -313,7 +313,7 @@
         {
           "type": "image",
           "content": "Image",
-          "image_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/imgs/img_in_chart_box_175_184_1056_627.jpg"
+          "image_path": "imgs/img_in_chart_box_175_184_1056_627.jpg"
         },
         "<div style=\"text-align: center;\">Fig. 6: TradingAgents Detailed Transaction History for $AAPL. Green / Red Arrows indicate Long / Short Positions respectively, showing the model's trading decisions over time.</div>"
       ],
@@ -343,7 +343,7 @@
         {
           "type": "image",
           "content": "Image",
-          "image_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/imgs/img_in_chart_box_261_184_966_652.jpg"
+          "image_path": "imgs/img_in_chart_box_261_184_966_652.jpg"
         },
         "<div style=\"text-align: center;\">Fig. 7: Cumulative Returns on $AAPL using TradingAgents. The figure shows the performance comparison of our model against baseline approaches for Apple Inc. stock analysis.</div>"
       ],
@@ -535,25 +535,25 @@
         {
           "type": "image",
           "content": "Image",
-          "image_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/imgs/img_in_chart_box_251_827_979_1266.jpg"
+          "image_path": "imgs/img_in_chart_box_251_827_979_1266.jpg"
         },
         "<div style=\"text-align: center;\">Fig. S1: TradingAgents: Transaction History for AMZN. Detailed transaction history with Green / Red arrows for Long / Short positions.</div>",
         {
           "type": "image",
           "content": "Image",
-          "image_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/imgs/img_in_chart_box_238_255_990_751.jpg"
+          "image_path": "imgs/img_in_chart_box_238_255_990_751.jpg"
         },
         "<div style=\"text-align: center;\">Fig. S2: TradingAgents: Cumulative Returns for AMZN. Performance comparison showing cumulative returns.</div>",
         {
           "type": "image",
           "content": "Image",
-          "image_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/imgs/img_in_chart_box_246_931_987_1306.jpg"
+          "image_path": "imgs/img_in_chart_box_246_931_987_1306.jpg"
         },
         "<div style=\"text-align: center;\">Fig. S3: TradingAgents: Transaction History for GOOGL. Detailed transaction history with Green / Red arrows for Long / Short positions.</div>",
         {
           "type": "image",
           "content": "Image",
-          "image_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/imgs/img_in_chart_box_240_212_987_711.jpg"
+          "image_path": "imgs/img_in_chart_box_240_212_987_711.jpg"
         },
         "<div style=\"text-align: center;\">Fig. S4: TradingAgents: Cumulative Returns for GOOGL. Performance comparison showing cumulative returns.</div>",
         "By including detailed analyses for AMZN and GOOGL, we aim to demonstrate the versatility of our approach in diverse market environments, thereby reinforcing the overall effectiveness and generalizability of our methodology."
@@ -967,8 +967,8 @@
     }
   ],
   "vector_store": {
-    "matrix_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/TradingAgent_emb.npy",
-    "id_map_path": "/home/lizhanli/上下文检索数据/谭志斌/3/TradingAgent/TradingAgent_idmap.json",
+    "matrix_path": "TradingAgent_emb.npy",
+    "id_map_path": "TradingAgent_idmap.json",
     "model_name": "qwen/qwen3-embedding-8b",
     "normalized": false,
     "dtype": "float32"

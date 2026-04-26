@@ -9,12 +9,12 @@
         {
           "type": "image",
           "content": "Image",
-          "image_path": "/home/lizhanli/上下文检索数据/庞朝旭/10/11724-金山办公：金山办公2023年年度报告/imgs/img_in_image_box_538_345_702_463.jpg"
+          "image_path": "imgs/img_in_image_box_538_345_702_463.jpg"
         },
         {
           "type": "image",
           "content": "Image",
-          "image_path": "/home/lizhanli/上下文检索数据/庞朝旭/10/11724-金山办公：金山办公2023年年度报告/imgs/img_in_image_box_460_487_778_591.jpg"
+          "image_path": "imgs/img_in_image_box_460_487_778_591.jpg"
         }
       ],
       "children": []
@@ -1030,7 +1030,7 @@
         {
           "type": "image",
           "content": "Image",
-          "image_path": "/home/lizhanli/上下文检索数据/庞朝旭/10/11724-金山办公：金山办公2023年年度报告/imgs/img_in_image_box_261_471_1010_965.jpg"
+          "image_path": "imgs/img_in_image_box_261_471_1010_965.jpg"
         }
       ],
       "children": []
@@ -3561,7 +3561,7 @@
         {
           "type": "image",
           "content": "Image",
-          "image_path": "/home/lizhanli/上下文检索数据/庞朝旭/10/11724-金山办公：金山办公2023年年度报告/imgs/img_in_image_box_205_864_473_1288.jpg"
+          "image_path": "imgs/img_in_image_box_205_864_473_1288.jpg"
         }
       ],
       "children": []
@@ -3601,7 +3601,7 @@
         {
           "type": "image",
           "content": "Image",
-          "image_path": "/home/lizhanli/上下文检索数据/庞朝旭/10/11724-金山办公：金山办公2023年年度报告/imgs/img_in_image_box_204_180_626_743.jpg"
+          "image_path": "imgs/img_in_image_box_204_180_626_743.jpg"
         }
       ],
       "children": []
@@ -9567,8 +9567,8 @@
     }
   ],
   "vector_store": {
-    "matrix_path": "/home/lizhanli/上下文检索数据/庞朝旭/10/11724-金山办公：金山办公2023年年度报告/11724-金山办公：金山办公2023年年度报告_emb.npy",
-    "id_map_path": "/home/lizhanli/上下文检索数据/庞朝旭/10/11724-金山办公：金山办公2023年年度报告/11724-金山办公：金山办公2023年年度报告_idmap.json",
+    "matrix_path": "11724-金山办公：金山办公2023年年度报告_emb.npy",
+    "id_map_path": "11724-金山办公：金山办公2023年年度报告_idmap.json",
     "model_name": "qwen/qwen3-embedding-8b",
     "normalized": false,
     "dtype": "float32"
