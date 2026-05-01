@@ -47,9 +47,17 @@ class DocIndex:
             self.nodes_by_doc[doc_id][node_id] = node
 
         self.node_to_doc_id: Dict[str, str] = {}
+        ambiguous_node_ids = set()
         for doc_id, doc_nodes in self.nodes_by_doc.items():
             for node_id in doc_nodes.keys():
-                self.node_to_doc_id[str(node_id)] = str(doc_id)
+                node_key = str(node_id)
+                doc_key = str(doc_id)
+                if node_key in self.node_to_doc_id and self.node_to_doc_id[node_key] != doc_key:
+                    ambiguous_node_ids.add(node_key)
+                else:
+                    self.node_to_doc_id[node_key] = doc_key
+        for node_id in ambiguous_node_ids:
+            self.node_to_doc_id.pop(node_id, None)
 
         self.par_docs: List[Dict[str, Any]] = []
         for doc_id, doc_nodes in self.nodes_by_doc.items():

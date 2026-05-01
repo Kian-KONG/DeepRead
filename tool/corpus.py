@@ -9,6 +9,20 @@ import numpy as np
 from .retrieval import DocIndex
 
 
+def _resolve_image_paths(nodes: List[Dict[str, Any]], corpus_dir: Path) -> None:
+    for node in nodes:
+        for paragraph in node.get("paragraphs", []):
+            if not isinstance(paragraph, dict) or paragraph.get("type") != "image":
+                continue
+            image_path = paragraph.get("image_path")
+            if not image_path:
+                continue
+            image_file = Path(str(image_path)).expanduser()
+            if image_file.is_absolute() or str(image_path).startswith(("http://", "https://", "data:")):
+                continue
+            paragraph["image_path"] = str((corpus_dir / image_file).resolve())
+
+
 def load_corpus(paths: List[str], neighbor_window: Optional[Tuple[int, int]]) -> DocIndex:
     all_nodes: List[Dict[str, Any]] = []
     matrices: List[np.ndarray] = []
@@ -28,6 +42,7 @@ def load_corpus(paths: List[str], neighbor_window: Optional[Tuple[int, int]]) ->
         doc_id = str(idx + 1)
         for node in nodes:
             node["doc_id"] = doc_id
+        _resolve_image_paths(nodes, corpus_path.parent)
         all_nodes.extend(nodes)
 
         vector_store = data.get("vector_store")
@@ -52,8 +67,7 @@ def load_corpus(paths: List[str], neighbor_window: Optional[Tuple[int, int]]) ->
         with id_map_file.open("r", encoding="utf-8") as f_id:
             id_map = json.load(f_id) or []
         for entry in id_map:
-            if entry.get("doc_id") is None:
-                entry["doc_id"] = doc_id
+            entry["doc_id"] = doc_id
 
         matrices.append(matrix)
         idmaps.extend(id_map)

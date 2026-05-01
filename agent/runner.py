@@ -276,12 +276,13 @@ def run_agent(
                     for r in out.get("results", []):
                         neighbors = r.get("neighbors") or []
                         ref = r.get("ref") or {}
+                        did = str(ref.get("doc_id"))
                         nid = str(ref.get("node_id"))
                         for item in neighbors:
                             if isinstance(item, dict):
                                 item_type = item.get("type") or "text"
                                 par_idx = int(item.get("paragraph_index", -1))
-                                key = (nid, par_idx, item_type)
+                                key = (did, nid, par_idx, item_type)
                                 if key in seen_keys:
                                     continue
                                 seen_keys.add(key)

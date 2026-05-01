@@ -21,13 +21,14 @@ def hybrid_search(
     embed_model: Optional[str] = None,
     neighbor_window: Optional[Tuple[int, int]] = None,
 ) -> Dict[str, Any]:
+    no_neighbor: Optional[Tuple[int, int]] = (0, 0)
     bm25_res = doc_index.bm25_search(
         query=query,
         scope=scope,
         doc_id=doc_id,
         top_k=top_k_bm25,
         include_images=include_images,
-        neighbor_window=neighbor_window,
+        neighbor_window=no_neighbor,
     )
     vec_res = doc_index.vector_search(
         query=query,
@@ -38,7 +39,7 @@ def hybrid_search(
         embed_api_key=embed_api_key,
         embed_base_url=embed_base_url,
         embed_model=embed_model,
-        neighbor_window=neighbor_window,
+        neighbor_window=no_neighbor,
     )
 
     if not bm25_res.get("ok", False) and not vec_res.get("ok", False):

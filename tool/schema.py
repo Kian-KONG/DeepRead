@@ -26,7 +26,11 @@ def make_tools_schema(doc_index: DocIndex, enable_semantic: bool = False) -> Lis
                         "doc_id": {"type": "string"},
                         "node_id": {"type": "string"},
                         "start_paragraph": {"type": "integer", "minimum": 0},
-                        "end_paragraph": {"type": "integer", "minimum": 1},
+                        "end_paragraph": {
+                            "type": "integer",
+                            "minimum": -1,
+                            "description": "Exclusive end paragraph; use -1 to read to the end of the node.",
+                        },
                     },
                     "required": ["doc_id", "node_id", "start_paragraph", "end_paragraph"],
                 },

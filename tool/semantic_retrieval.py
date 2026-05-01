@@ -106,7 +106,7 @@ def semantic_retrieval(
     if stage1 not in ("vector", "bm25", "hybrid"):
         stage1 = "vector"
 
-    no_neighbor: Optional[Tuple[int, int]] = None
+    no_neighbor: Optional[Tuple[int, int]] = (0, 0)
     if stage1 == "bm25":
         candidates_res = doc_index.bm25_search(
             query=query,
