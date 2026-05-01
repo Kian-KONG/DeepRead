@@ -94,6 +94,19 @@ Neighbor expansion:
 python deepread.py ask /path/to/output/doc_corpus.json "What is the question?" --neighbor-window 1,-1
 ```
 
+### Ask Over Multiple Documents
+Parse each document into its own `*_corpus.json`, then pass multiple corpus files before the question. DeepRead assigns document IDs by input order: the first corpus is `doc_id=1`, the second is `doc_id=2`, and so on. The agent tools return references in `(doc_id, node_id, paragraph_indexes)` form, so repeated `node_id` values across documents are handled by `doc_id`.
+
+```bash
+python deepread.py ask \
+  /path/to/doc1_corpus.json \
+  /path/to/doc2_corpus.json \
+  "Compare the main conclusions of these documents." \
+  --retrieval semantic
+```
+
+For vector, hybrid, or semantic retrieval with vector stage-1, build embeddings for each corpus during parsing and use the same embedding model at ask time.
+
 ## Retrieval Modes
 DeepRead exposes several retrieval tools. The shortcut `--retrieval` selects the common mode, but the underlying tools can still be enabled or disabled independently.
 
@@ -208,6 +221,16 @@ python deepread.py ask \
   --retrieval semantic \
   --neighbor-window 0,0 \
   --log demo_xx.jsonl
+```
+
+Multi-document demo:
+```bash
+python deepread.py ask \
+  demo/TradingAgent/TradingAgent_corpus.json \
+  "demo/金山办公2023年报/11724-金山办公：金山办公2023年年度报告_corpus.json" \
+  "Summarize what each document is about and cite their doc_id values." \
+  --retrieval semantic \
+  --log demo_multi.jsonl
 ```
 
 ## Full Usage
