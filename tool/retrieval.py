@@ -94,12 +94,13 @@ class DocIndex:
 
     def overview(self) -> str:
         lines: List[str] = []
-        for node_id, node in self.nodes.items():
-            lines.append(
-                f"- (doc_id={str(node.get('doc_id', ''))}) "
-                f"[{node_id}] {node['title']} | paragraphs={len(node['paragraphs'])} | "
-                f"tokens={node.get('_model_token_count', len(node['_tokens']))} | children={node['children']}"
-            )
+        for doc_id, doc_nodes in self.nodes_by_doc.items():
+            for node_id, node in doc_nodes.items():
+                lines.append(
+                    f"- (doc_id={doc_id}) "
+                    f"[{node_id}] {node['title']} | paragraphs={len(node['paragraphs'])} | "
+                    f"tokens={node.get('_model_token_count', len(node['_tokens']))} | children={node['children']}"
+                )
         return "\n".join(lines)
 
     def _neighbor_context_for(
