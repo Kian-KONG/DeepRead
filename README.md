@@ -23,6 +23,7 @@ DeepRead is a document-structure-aware RAG agent. The code is organized around f
 - `demo/`: demo corpora and local embedding files.
 
 ## News
+- **2026.6.3** 🎉 We’ve decided to open-source the [dataset specification files](https://drive.google.com/file/d/1_1RgHi0-dJPvAgLga5bdyvM0-p4hJ8Ba/view?usp=sharing) for DeepRead on FinanceBench, QASPER, and SyllabusQA. We hope you find them useful!
 - **2026.4.27** 🎉 We have refactored DeepRead's code to make it easier for you to use, develop, and maintain!
 - **2026.3.16** 🔥 DeepRead has been featured in [New Intelligence (新智元)](https://mp.weixin.qq.com/s/BhvUQgREp4NOvb6axiWXiQ)!
 
